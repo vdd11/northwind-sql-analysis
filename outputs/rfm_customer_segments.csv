@@ -1,0 +1,68 @@
+companyName,recency,frequency,monetary,r_score,f_score,m_score,segment
+Centro comercial Moctezuma,657,1,100.8,1,1,1,Hibernating
+Lazy K Kountry Store,349,2,357.0,1,1,1,Hibernating
+Hungry Coyote Import Store,240,5,3063.2,1,2,1,Hibernating
+Mère Paillarde,188,13,28872.19,1,4,5,At Risk / Can't Lose
+Vins et alcools Chevalier,175,5,1480.0,1,1,1,Hibernating
+GROSELLA-Restaurante,139,2,1488.7,1,1,1,Hibernating
+Laughing Bacchus Wine Cellars,125,3,522.5,1,1,1,Hibernating
+Trail's Head Gourmet Provisioners,118,3,1571.2,1,1,1,Hibernating
+Consolidated Holdings,103,3,1719.1,1,1,1,Hibernating
+Antonio Moreno Taquería,98,7,7023.98,1,2,3,Hibernating
+Seven Seas Imports,91,9,16215.33,1,3,4,At Risk / Can't Lose
+Let's Stop N Shop,83,4,3076.47,1,1,2,Hibernating
+Berglunds snabbköp,63,18,24927.58,1,5,5,At Risk / Can't Lose
+Ana Trujillo Emparedados y helados,63,4,1402.95,1,1,1,Hibernating
+Island Trading,61,10,6146.3,2,3,3,Loyal Customers
+Morgenstern Gesundkost,55,5,5042.2,2,2,2,Hibernating
+Magazzini Alimentari Riuniti,51,10,7176.22,2,3,3,Loyal Customers
+Furia Bacalhau e Frutos do Mar,48,8,6427.42,2,3,3,Loyal Customers
+Toms Spezialitäten,44,6,4778.14,2,2,2,Hibernating
+Split Rail Beer & Ale,42,9,11441.63,2,3,3,Loyal Customers
+Océano Atlántico Ltda.,37,5,3460.2,2,1,2,Hibernating
+The Big Cheese,35,4,3361.0,2,1,2,Hibernating
+Vaffeljernet,34,11,15843.93,2,4,4,At Risk / Can't Lose
+The Cracker Box,30,3,1947.24,2,1,1,Hibernating
+Wilman Kala,29,7,3161.35,2,3,2,Hibernating
+Maison Dewey,29,7,9736.08,2,2,3,Hibernating
+Princesa Isabel Vinhos,28,5,5044.94,2,2,2,Hibernating
+Alfreds Futterkiste,27,6,4273.0,2,2,2,Hibernating
+Frankenversand,27,15,26656.56,3,5,5,Loyal Customers
+Around the Horn,26,13,13390.65,3,4,4,Loyal Customers
+Santé Gourmet,26,6,5735.15,3,2,2,Hibernating
+Rancho grande,23,5,2844.1,3,1,1,Hibernating
+Lonesome Pine Restaurant,23,8,4258.6,3,3,2,Hibernating
+B's Beverages,22,10,6089.9,3,3,3,Loyal Customers
+Ottilies Käseladen,22,10,12496.2,3,4,3,Loyal Customers
+QUICK-Stop,22,28,110277.31,3,5,5,Loyal Customers
+Wartian Herkku,21,15,15648.7,3,5,4,Loyal Customers
+Königlich Essen,20,14,30908.38,3,5,5,Loyal Customers
+Old World Delicatessen,16,10,15177.46,3,4,4,Loyal Customers
+LINO-Delicateses,15,12,16476.57,3,4,4,Loyal Customers
+Chop-suey Chinese,14,8,12348.88,3,3,3,Loyal Customers
+Wolski  Zajazd,13,7,3531.95,4,2,2,New Customers
+Die Wandernde Kuh,13,10,9588.43,4,3,3,Loyal Customers
+Bottom-Dollar Markets,12,14,20801.6,4,4,4,Champions
+La maison d'Asie,9,14,9328.2,4,4,3,Loyal Customers
+Folk och fä HB,9,19,29567.56,4,5,5,Champions
+Piccolo und mehr,9,10,23128.86,4,4,5,Champions
+Eastern Connection,8,8,14761.04,4,3,4,Loyal Customers
+Cactus Comidas para llevar,8,6,1814.8,4,2,1,New Customers
+HILARION-Abastos,8,18,22768.76,4,5,5,Champions
+Blauer See Delikatessen,7,7,3239.8,4,2,2,New Customers
+North/South,7,3,649.0,4,1,1,New Customers
+Franchi S.p.A.,6,6,1545.7,4,2,1,New Customers
+Reggiani Caseifici,6,12,7048.24,4,4,3,Loyal Customers
+Great Lakes Food Market,6,11,18507.45,5,4,4,Champions
+Hungry Owl All-Night Grocers,6,19,49979.91,5,5,5,Champions
+Save-a-lot Markets,5,31,104361.95,5,5,5,Champions
+White Clover Markets,5,14,27363.61,5,5,5,Champions
+Drachenblut Delikatessen,2,6,3763.21,5,2,2,New Customers
+Tortuga Restaurante,2,10,10812.15,5,3,3,Loyal Customers
+Pericles Comidas clásicas,1,6,4242.2,5,2,2,New Customers
+Lehmanns Marktstand,1,15,19261.41,5,5,4,Champions
+LILA-Supermercado,1,14,16076.6,5,4,4,Champions
+Ernst Handel,1,30,104874.98,5,5,5,Champions
+Rattlesnake Canyon Grocery,0,18,51097.8,5,5,5,Champions
+Simons bistro,0,7,16817.1,5,3,4,Loyal Customers
+Richter Supermarkt,0,10,19343.78,5,4,4,Champions
