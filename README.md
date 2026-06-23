@@ -18,7 +18,7 @@ An end-to-end, engineering-first data pipeline that transforms relational databa
 ## 📁 Repository Architecture
 
 ```text
-northwind-bi-pipeline/
+northwind-sql-analysis-/
 │
 ├── .env.example              # Template configuration for database credentials
 ├── .gitignore                # Production rules to block credential leaks
