@@ -63,3 +63,7 @@ northwind-sql-analysis/
 │
 └── outputs/                  # Generated charts, CSVs and markdown reports
 ```
+
+## License
+
+MIT. See [LICENSE](LICENSE).
