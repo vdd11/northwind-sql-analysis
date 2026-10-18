@@ -6,6 +6,8 @@
 
 ![Top products by revenue](outputs/top_products_revenue.png)
 
+An end-to-end, engineering-first data pipeline that transforms relational database schemas into production-grade business intelligence assets. This system automates quantitative RFM customer segmentation, detects supply chain bottlenecks, and calculates market concentration risks using corporate portfolio models.
+
 ## Key findings
 
 From [`outputs/executive_risk_summary.md`](outputs/executive_risk_summary.md):
@@ -20,7 +22,7 @@ From [`outputs/executive_risk_summary.md`](outputs/executive_risk_summary.md):
 1. **Data source:** the four Northwind tables (`customers`, `products`, `orders`, `order_details`) are downloaded by `scripts/load_northwind.py` from the public [neo4j-contrib/northwind-neo4j](https://github.com/neo4j-contrib/northwind-neo4j/tree/master/data) CSVs. You need an empty PostgreSQL database (the scripts were written against [Neon](https://neon.tech)).
 2. **Install:**
    ```bash
-   python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scriptsctivate
+   python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
    pip install -r requirements.txt
    ```
 3. **Configure:** copy `.env.example` to `.env` and set `NEON_DATABASE_URL` to your PostgreSQL connection string. `.env` is git-ignored; never commit it.
@@ -29,13 +31,11 @@ From [`outputs/executive_risk_summary.md`](outputs/executive_risk_summary.md):
 
 Charts, CSVs and the markdown reports are written to `outputs/`.
 
-An end-to-end, engineering-first data pipeline that transforms relational database schemas into production-grade business intelligence assets. This system automates quantitative RFM customer segmentation, detects supply chain bottlenecks, and calculates market concentration risks using corporate portfolio models.
-
 ---
 
 ## 🚀 Key Features
 
-* **Database Lifecycle Management:** Features an automated ingestion routine (`load_northwind.py`) to handle target database seeding and initial schema construction.
+* **Database Lifecycle Management:** `scripts/load_northwind.py` downloads the four Northwind CSVs and loads them as tables (`customers`, `products`, `orders`, `order_details`) into PostgreSQL.
 * **Quantitative RFM Segmentation Engine:** Extracts raw customer order frequencies, spending patterns, and recency timelines using advanced SQL window functions (`NTILE(5)`), mapping accounts into actionable business segments.
 * **Advanced Visualization Suite:**
   * *RFM Scatter Map:* Features a custom inverted X-axis (most recent buyers on the right) and log-scaled monetary Y-axis to clearly reveal account distributions without "whale account" scale compression. Includes pixel-offset pointer annotations to prevent text overlap.
